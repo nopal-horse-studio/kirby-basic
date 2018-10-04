@@ -1,0 +1,5 @@
+Title: Error 404
+
+----
+
+Text: Esta página no está disponible. Disculpa las molestias. ¡Prueba buscar otra cosa!

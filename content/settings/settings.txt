@@ -1,0 +1,33 @@
+Title: Configuración
+
+----
+
+Author: Company
+
+----
+
+Seoimage: thumb.png
+
+----
+
+Seodescription: My website description...
+
+----
+
+Seotags: website,company,business
+
+----
+
+Idgoogle: 
+
+----
+
+Favicon: 0.01
+
+----
+
+Config: 
+
+----
+
+Icon: 

@@ -1,45 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Error</title>
-
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-      padding: 10%;
-      text-align: center;
-      line-height: 1.5em;
-    }
-    a {
-      color: inherit;
-    }
-    a:hover,
-    a:focus {
-      color: #000;
-    }
-    p {
-      max-width: 30em;
-      margin: 0 auto;
-    }
-    .notice {
-      font-weight: bold;
-    }
-    .admin-advice {
-      font-size: .8em;      
-      font-style: italic;
-      color: #999;
-      padding-top: 3rem;
-    }
-  </style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Error</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <style>
+	      body {
+		      padding: 10%;
+		      text-align: center;
+		      line-height: 1.5em;
+	      }
+      </style>
 
 </head>
 <body>
-  <p class="notice">
-    This page is currently offline due to an unexpected error. We are very sorry for the inconvenience and will fix it as soon as possible.
-  </p>
-  <p class="admin-advice">
-    Advice for developers and administrators:<br> 
-    Enable <a href="https://getkirby.com/docs/cheatsheet/options/debug">debug mode</a> to get further information about the error.
-  </p>
+	<main class="container">
+		<h1><span class="badge badge-secondary">Upps!</span></h1>
+		<div class="alert alert-danger" role="alert">
+			Esta página está actualmente desconectada debido a un error inesperado. Lamentamos los inconvenientes y lo solucionaremos lo antes posible.
+		</div>
+		<p>
+			Hubo algún error vuelva más tarde.<br>
+			Comunicate con tu proveedor de servicios <a href="#">Contacto</a>
+		</p>
+	</main>
 </body>
 </html>
