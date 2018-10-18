@@ -1,0 +1,32 @@
+title: Servicios
+icon: bookmark
+files: false
+pages: false
+fields:
+  title:
+    label: Title
+    type:  text
+
+  text:
+    label: Text
+    type:  markdown
+
+  services:
+    label: Servicios
+    type: structure
+    modalsize: large
+    entry: >
+      {{name}}<br/>
+      {{thumb}}<br/>
+      {{description}}
+    fields:
+      name:
+        label: Name
+        type: text
+        icon: font
+      thumb:
+        label: Imagen
+        type: image
+      description:
+        label: Descripción
+        type: textarea

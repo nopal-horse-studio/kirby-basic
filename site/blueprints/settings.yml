@@ -1,0 +1,80 @@
+title: SEO
+icon: cog
+files: true
+pages: false
+fields:
+  tab1:
+    label: Configuración
+    type: tabs
+    icon: align-left
+
+  title:
+    label: Título
+    type:  text
+
+  author:
+    label: Autor
+    type:  text
+    icon: font
+    width: 1/3
+    placeholder: Empresa
+    help: Nombre del autor
+
+  icon:
+    label: Favicon (.ico)
+    type:  image
+    icon: file
+    width: 1/3
+
+  seoimage:
+    label: Share imagen (Rede Sociales)
+    type:  image
+    width: 1/3
+    help: Imagen que aparece al compartir la URL de tu sitio web
+
+  seodescription:
+    label: Descripción
+    type:  textarea
+    placeholder: ¿Quiénes somos?
+    help: Breve descripción sobre <strong>¿Quiénes somos?</strong> (50–300 characters.)
+
+  seotags:
+    label: keywords
+    type:  tags
+    help: Agregar el nombre de cada palabra separado por una <strong>coma (,)</strong>
+
+  tab2:
+    label: Deploy
+    type: tabs
+    icon: plug
+
+  info:
+    label: Información
+    type: info
+    text: >
+      Estos campos nos permiten actualizar la versión de nuestros archivos mediante valores numéricos de manera en incremento,
+      para que se vean reflejados los cambios cada que se realizan ajustes.
+      Solución para conflictos en la memoria cache de los navegadores.
+      <i class="fa fa-chrome" aria-hidden="true"></i>
+      <i class="fa fa-firefox" aria-hidden="true"></i>
+      <i class="fa fa-internet-explorer" aria-hidden="true"></i>
+      <i class="fa fa-safari" aria-hidden="true"></i>
+
+  favicon:
+    label: Favicon
+    type:  text
+    icon: file
+    width: 1/3
+    placeholder: 0.01
+    help: Numero de versión para el <strong>favicon</strong>
+
+  config:
+    label: Configuration
+    type:  text
+    icon: file
+    width: 1/3
+    placeholder: 0.01
+    help: Numero de versión para el archivo <strong>config.min.js</strong>
+  idgoogle:
+    label: ID Google
+    type:  text

@@ -1,0 +1,12 @@
+title: Page
+icon: folder
+files: false
+pages: false
+fields:
+  title:
+    label: Title
+    type:  text
+
+  text:
+    label: Text
+    type:  markdown

@@ -1,0 +1,11 @@
+title: Site
+pages: default
+fields:
+  tab1:
+    label: Contenido
+    type: tabs
+    icon: align-left
+
+  title:
+    label: Nombre del website
+    type:  text

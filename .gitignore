@@ -14,7 +14,9 @@ Icon
 
 # = KIRBY FOLDERS
 # ----------------------------------------------------------------------
+site/*
 /site/*
+!/site/blueprints
 /content/*
 content/*
 

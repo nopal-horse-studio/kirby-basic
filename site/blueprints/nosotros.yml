@@ -1,0 +1,16 @@
+title: Nosotros
+icon: child
+files: false
+pages: false
+fields:
+  title:
+    label: Title
+    type:  text
+
+  intro:
+    label: Intro
+    type:  markdown
+
+  text:
+    label: Text
+    type:  markdown

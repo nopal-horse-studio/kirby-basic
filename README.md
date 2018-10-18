@@ -13,3 +13,7 @@ Projects
 - Form.
 - Google Maps.
 
+### Vendors
+- Flickity
+- TweenMax
+
